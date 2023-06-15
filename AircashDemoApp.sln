@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{5A19DE27-680B-4507-9391-BACFBAAB5FB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. API", "4. API", "{A55AA188-4B96-45B9-8314-33CDADB09D81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Services", "3. Services", "{FE854C80-F890-49F8-A961-2374D08383A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Signature", "Services.Signature\Services.Signature.csproj", "{65DFC90A-20A3-4ADE-B26A-361C8A0C8036}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. DataAccess", "2. DataAccess", "{E211D215-7ACB-411C-93FD-5FF1AF1FE6A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Domain", "1. Domain", "{E9861380-BCE5-4E49-AD8B-F17A1AD34FD5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. CrossCutting", "0. CrossCutting", "{418B1AEC-7C87-4640-9191-EC56E64A0B64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A19DE27-680B-4507-9391-BACFBAAB5FB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A19DE27-680B-4507-9391-BACFBAAB5FB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A19DE27-680B-4507-9391-BACFBAAB5FB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A19DE27-680B-4507-9391-BACFBAAB5FB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65DFC90A-20A3-4ADE-B26A-361C8A0C8036}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65DFC90A-20A3-4ADE-B26A-361C8A0C8036}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65DFC90A-20A3-4ADE-B26A-361C8A0C8036}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65DFC90A-20A3-4ADE-B26A-361C8A0C8036}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5A19DE27-680B-4507-9391-BACFBAAB5FB6} = {A55AA188-4B96-45B9-8314-33CDADB09D81}
+		{65DFC90A-20A3-4ADE-B26A-361C8A0C8036} = {FE854C80-F890-49F8-A961-2374D08383A0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2517DD68-7850-455D-9072-1693B2E02BEF}
+	EndGlobalSection
+EndGlobal
